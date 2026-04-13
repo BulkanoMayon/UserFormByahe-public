@@ -60,7 +60,7 @@ function submitData() {
   questionEl.innerText = "⏳ Sending booking...";
   inputEl.style.display = "none";
 
-  fetch("http://192.168.100.55:5000/book", {
+  fetch("http://127.0.0.1:5000/book", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
